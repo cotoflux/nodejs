@@ -7,6 +7,7 @@ const http = require('http');
 // I do start chance and load chance then is mandatory to instantiate Chance so I can use it, check library documentation http://chancejs.com/
 const Chance = require('chance');
 const chance = new Chance();
+// remember to do npm iinstall to uload the library I used for this project or npm install chance@1.0.15 (to intall another version)
 
 // definition of my server
 const server = http.createServer(function(request, response) {

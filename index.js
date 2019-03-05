@@ -7,8 +7,8 @@ const http = require('http');
 // definir un servidor 
 const server = http.createServer(function(request, response) {
 
-        response.writeHead(200,{'Content-Type': 'text/plain'});
-        response.end('Wake up, Neo');
+        response.writeHead(200,{'Content-Type': 'text/html'});
+        response.end('<h1>This is a test </h1><br> Wake up, <b>Neo eres genial</b> <h3>Was checking how could I put much more information in this server</h3> <p>To me the problem here is indentation</pr>');
 
 })
 
